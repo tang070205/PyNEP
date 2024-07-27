@@ -41,7 +41,6 @@ setup(
     packages=find_packages(),
     python_requires=">=3.8",
     install_requires=[
-        "numpy<1.22.0",     # numba not support numpy >= 1.22.0
         "ase>=3.18",
     ],
     license="MIT",
